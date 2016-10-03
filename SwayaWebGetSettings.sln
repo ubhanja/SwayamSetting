@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwayaWebGetSettings", "SwayaWebGetSettings\SwayaWebGetSettings.csproj", "{40704811-BC89-4CBC-8DC9-E95BA58FF86E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{D104057B-05F7-4EFD-A76C-B54D0C145F68}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{11894B56-9CE5-4F98-866B-EBDAA3AD6D64}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\MVCSwayamConfig-VM-dev.json = PublishScripts\Configurations\MVCSwayamConfig-VM-dev.json
+		PublishScripts\Configurations\SwayaWebGetSettings-VM-dev.json = PublishScripts\Configurations\SwayaWebGetSettings-VM-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{81F3FBB5-0B98-4393-915D-3F92ACA0DC60}"
+	ProjectSection(SolutionItems) = preProject
+		ClassLibrary1\global.json = ClassLibrary1\global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwayamSettings", "SwayamSettings\SwayamSettings.csproj", "{6CBFC162-7BCC-466B-9C66-F5918BC13E40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCSwayamConfig", "MVCSwayamConfig\MVCSwayamConfig.csproj", "{DE0013A1-7B8C-4381-965E-5171FDFEBF51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40704811-BC89-4CBC-8DC9-E95BA58FF86E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40704811-BC89-4CBC-8DC9-E95BA58FF86E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40704811-BC89-4CBC-8DC9-E95BA58FF86E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40704811-BC89-4CBC-8DC9-E95BA58FF86E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CBFC162-7BCC-466B-9C66-F5918BC13E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CBFC162-7BCC-466B-9C66-F5918BC13E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CBFC162-7BCC-466B-9C66-F5918BC13E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CBFC162-7BCC-466B-9C66-F5918BC13E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0013A1-7B8C-4381-965E-5171FDFEBF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0013A1-7B8C-4381-965E-5171FDFEBF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0013A1-7B8C-4381-965E-5171FDFEBF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0013A1-7B8C-4381-965E-5171FDFEBF51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11894B56-9CE5-4F98-866B-EBDAA3AD6D64} = {D104057B-05F7-4EFD-A76C-B54D0C145F68}
+	EndGlobalSection
+EndGlobal
